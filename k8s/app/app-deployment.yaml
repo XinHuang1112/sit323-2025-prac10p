@@ -11,10 +11,13 @@ spec:
     metadata:
       labels:
         app: myapp
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port:    "3000"
     spec:
       containers:
       - name: myapp
-        image: my-cloud-app:latest
+        image: asia-southeast1-docker.pkg.dev/sit323-2025-prac10/sit323-repo/my-cloud-app:latest
         ports:
         - containerPort: 3000
         env:
