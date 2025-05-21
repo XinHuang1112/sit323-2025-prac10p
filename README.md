@@ -68,7 +68,7 @@
 6.3**Run the query to see your `myapp` container logs.**
 
 ## 7.Challenges & Solutions
-- **Dashboard JSON import issues**: hard to find import json file so I switched to CLI gcloud monitoring dashboards create.
+- **Dashboard JSON import issues**: had issues to import json file so I switched to CLI gcloud monitoring dashboards create.
 
 ## 8. Conclusion
 **Building on the 9.1P database integration, we have:**
